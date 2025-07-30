@@ -3,18 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Tap to Count</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
+  <div class="container">
     <h1>Tap to Count</h1>
-    <div id="count">0</div>
-    <div class="button-group">
-      <button class="tap-btn" onclick="increment()">Tap</button>
-      <button class="reset-btn" onclick="reset()">Reset</button>
-    </div>
+    <p class="count" id="count">0</p>
+    <button onclick="increment()">Tap</button>
+    <button onclick="reset()">Reset</button>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
