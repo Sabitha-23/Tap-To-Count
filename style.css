@@ -1,61 +1,86 @@
-body {
+/* Reset styles */
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: #f0f0f0;
 }
 
-.container {
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   text-align: center;
-  padding: 20px;
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   width: 90%;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-#count {
-  font-size: 4em;
+  font-size: 1.8em;
+  font-weight: bold;
   margin-bottom: 20px;
   color: #333;
 }
 
+#count {
+  font-size: 3.5em;
+  margin-bottom: 25px;
+  color: #111;
+}
+
 .button-group {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 button {
-  padding: 15px 25px;
+  flex: 1;
+  padding: 12px;
   font-size: 1em;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
-  background-color: #007BFF;
   color: white;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease;
 }
 
-button:hover {
+.tap-btn {
+  background-color: #007BFF;
+}
+
+.tap-btn:hover {
   background-color: #0056b3;
+}
+
+.reset-btn {
+  background-color: #DC3545;
+}
+
+.reset-btn:hover {
+  background-color: #a71d2a;
 }
 
 @media (max-width: 480px) {
   #count {
-    font-size: 3em;
+    font-size: 2.5em;
+  }
+
+  h1 {
+    font-size: 1.5em;
   }
 
   button {
-    padding: 12px 20px;
+    padding: 10px;
     font-size: 0.9em;
   }
 }
