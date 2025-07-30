@@ -7,5 +7,5 @@ A simple tap counter web app built with HTML, CSS, and JavaScript.
 - Reset the count
 
 ## Demo
-[Live Demo](https://your-github-username.github.io/tap-to-count)
+[Live Demo]( https://sabitha-23.github.io/Tap-To-Count/)
 # Tap-To-Count
