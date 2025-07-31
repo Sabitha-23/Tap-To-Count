@@ -3,11 +3,6 @@ body {
   text-align: center;
   background: #f0f0f0;
   margin-top: 100px;
-  height: 100%;
-}
-
-h1{
-  font-size: 250%;
 }
 
 .container {
@@ -18,15 +13,15 @@ h1{
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-.count {
-  font-size: 300%;
+#count {
+  font-size: 50px;
   margin: 20px 0;
 }
 
 button {
   padding: 10px 20px;
   margin: 10px;
-  font-size: 150%;
+  font-size: 18px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -35,48 +30,4 @@ button {
 button:hover {
   background: #007BFF;
   color: white;
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .count {
-    font-size: 3rem;
-  }
-
-  button {
-    padding: 12px 24px;
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  .count {
-    font-size: 3.5rem;
-  }
-
-  button {
-    padding: 14px 28px;
-    font-size: 1.1rem;
-  }
-
-  @media (min-width: 769px) {
-  h1 {
-    font-size: 2.2rem;
-  }
-
-  .count {
-    font-size: 4.2rem;
-  }
-
-  button {
-    padding: 16px 32px;
-    font-size: 1.3rem;
-  }
 }
