@@ -1,56 +1,42 @@
-/* Base styles – already responsive */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+  margin-top: 100px;
+  height: 100%;
 }
 
-body {
-  font-family: sans-serif;
-  background-color: #f0f8ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+h1{
+  font-size: 250%;
 }
 
 .container {
-  text-align: center;
-  padding: 20px;
-  width: 90%;
-  max-width: 400px;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-h1 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.count {
-  font-size: 4rem;
+#count {
+  font-size: 300%;
   margin: 20px 0;
-  color: #007acc;
 }
 
 button {
-  padding: 15px 30px;
-  font-size: 1.2rem;
-  background-color: #007acc;
-  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 150%;
   border: none;
-  border-radius: 12px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 button:hover {
-  background-color: #005f99;
+  background: #007BFF;
+  color: white;
 }
 
-/* 📱 Small screens (phones) */
 @media (max-width: 480px) {
   h1 {
     font-size: 1.5rem;
@@ -66,7 +52,6 @@ button:hover {
   }
 }
 
-/* 📱📲 Medium screens (tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
   h1 {
     font-size: 1.8rem;
@@ -80,10 +65,8 @@ button:hover {
     padding: 14px 28px;
     font-size: 1.1rem;
   }
-}
 
-/* 💻 Large screens (laptops/desktops) */
-@media (min-width: 769px) {
+  @media (min-width: 769px) {
   h1 {
     font-size: 2.2rem;
   }
