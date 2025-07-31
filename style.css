@@ -18,7 +18,7 @@ h1{
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-#count {
+.count {
   font-size: 300%;
   margin: 20px 0;
 }
