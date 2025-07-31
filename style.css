@@ -3,7 +3,11 @@ body {
   text-align: center;
   background: #f0f0f0;
   margin-top: 100px;
-  hight: 100px;
+  height: 100%;
+}
+
+h1{
+  font-size: 300%;
 }
 
 .container {
@@ -15,14 +19,14 @@ body {
 }
 
 #count {
-  font-size: 50px;
+  font-size: 300%;
   margin: 20px 0;
 }
 
 button {
   padding: 10px 20px;
   margin: 10px;
-  font-size: 20px;
+  font-size: 200%;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -32,3 +36,4 @@ button:hover {
   background: #007BFF;
   color: white;
 }
+
